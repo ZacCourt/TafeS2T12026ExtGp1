@@ -42,6 +42,10 @@
 					Width="150"
 					Margin="5"
 					Content="Currency Calculator"/>
+			<Button x:Name="unitsConverterButton"
+					Width="150"
+					Margin="5"
+					Content="Units Converter"/>
 			<Button x:Name="exitButton"
 					Width="150"
 					Margin="5,15"
