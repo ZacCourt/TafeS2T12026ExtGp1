@@ -41,7 +41,7 @@
 			<Button x:Name="currencyCalculatorButton"
 					Width="150"
 					Margin="5"
-					Content="Currency Calculator"/>
+					Content="Currency Calculator" Click="currencyCalculatorButton_Click"/>
 			<Button x:Name="unitsConverterButton"
 					Width="150"
 					Margin="5"
@@ -49,7 +49,7 @@
 			<Button x:Name="exitButton"
 					Width="150"
 					Margin="5,15"
-					Content="Exit"/>
+					Content="Exit" Click="exitButton_Click"/>
 		</StackPanel>
 	</Grid>
 </Page>
