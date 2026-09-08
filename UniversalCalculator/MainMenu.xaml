@@ -37,7 +37,8 @@
 			<Button x:Name="mortgageCalculatorButton"
 					Width="150"
 					Margin="5"
-					Content="Mortgage Calculator"/>
+					Content="Mortgage Calculator"
+					Click="mortgageCalculatorButton_Click"/>
 			<Button x:Name="currencyCalculatorButton"
 					Width="150"
 					Margin="5"
