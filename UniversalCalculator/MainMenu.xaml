@@ -7,8 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
 	<Grid>
+		
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition/>
 			<ColumnDefinition/>
@@ -25,7 +25,6 @@
 		<StackPanel Grid.Column="1">
 			<Image Source="Assets/abacus.jpg"/>
 		</StackPanel>
-
 		<StackPanel HorizontalAlignment="Center"
 					VerticalAlignment="Center"
 					Grid.Row="1"
@@ -45,11 +44,16 @@
 			<Button x:Name="unitsConverterButton"
 					Width="150"
 					Margin="5"
-					Content="Units Converter"/>
+					Content="Units Converter"
+					Click="unitsConverterButton_Click"/>
 			<Button x:Name="exitButton"
 					Width="150"
 					Margin="5,15"
 					Content="Exit"/>
 		</StackPanel>
+
+		<Frame x:Name="MainFrame"
+			   Grid.Row="2"
+			   Grid.ColumnSpan="2"/>
 	</Grid>
 </Page>

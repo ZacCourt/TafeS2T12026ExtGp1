@@ -26,5 +26,10 @@ namespace Calculator
 		{
 			this.InitializeComponent();
 		}
+
+		private void unitsConverterButton_Click(object sender, RoutedEventArgs e)
+		{
+			MainFrame.Navigate(typeof(UnitsConverter));
+		}
 	}
 }
