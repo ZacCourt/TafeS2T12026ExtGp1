@@ -29,7 +29,7 @@ namespace Calculator
 
 		private void unitsConverterButton_Click(object sender, RoutedEventArgs e)
 		{
-			MainFrame.Navigate(typeof(UnitsConverter));
+			this.Frame.Navigate(typeof(UnitsConverter));
 		}
 	}
 }

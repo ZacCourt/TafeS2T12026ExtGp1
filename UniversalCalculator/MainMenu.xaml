@@ -51,9 +51,5 @@
 					Margin="5,15"
 					Content="Exit"/>
 		</StackPanel>
-
-		<Frame x:Name="MainFrame"
-			   Grid.Row="2"
-			   Grid.ColumnSpan="2"/>
 	</Grid>
 </Page>
