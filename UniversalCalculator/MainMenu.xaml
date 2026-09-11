@@ -46,7 +46,8 @@
 			<Button x:Name="unitsConverterButton"
 					Width="150"
 					Margin="5"
-					Content="Units Converter"/>
+					Content="Units Converter"
+					Click="unitsConverterButton_Click"/>
 			<Button x:Name="exitButton"
 					Width="150"
 					Margin="5,15"

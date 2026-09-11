@@ -42,5 +42,10 @@ namespace Calculator
 		{
 			Frame.Navigate(typeof(MortgageCalculator));
 		}
+
+		private void unitsConverterButton_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(UnitsConverter));
+		}
 	}
 }
