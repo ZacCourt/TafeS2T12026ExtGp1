@@ -47,5 +47,10 @@ namespace Calculator
 		{
 			this.Frame.Navigate(typeof(UnitsConverter));
 		}
-	}
+
+		private void mathCalculatorButton_Click(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(MainPage));
+        }
+    }
 }

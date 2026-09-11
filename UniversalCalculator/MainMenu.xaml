@@ -33,7 +33,8 @@
 			<Button x:Name="mathCalculatorButton"
 					Width="150"
 					Margin="5"
-					Content="Math Calculator"/>
+					Content="Math Calculator"
+					Click="mathCalculatorButton_Click"/>
 			<Button x:Name="mortgageCalculatorButton"
 					Width="150"
 					Margin="5"
