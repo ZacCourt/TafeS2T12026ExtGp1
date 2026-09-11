@@ -20,6 +20,12 @@
 			<RowDefinition Height="0.25*"/>
 			<RowDefinition Height="0.5*"/>
 		</Grid.RowDefinitions>
+		<Viewbox VerticalAlignment="Top">
+			<Button
+				Margin="0,0,10,0"
+				x:Name="returnToMenuButton"
+				Click="returnToMenuButton_Click">Return To Menu</Button>
+		</Viewbox>
 		<Viewbox Grid.Column="1">
 			<TextBlock>Units Converter</TextBlock>
 		</Viewbox>
