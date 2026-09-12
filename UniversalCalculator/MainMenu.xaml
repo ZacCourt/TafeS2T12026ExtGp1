@@ -49,6 +49,10 @@
 					Margin="5"
 					Content="Units Converter"
 					Click="unitsConverterButton_Click"/>
+			<Button x:Name="tripCalculatorButton"
+					Width="150"
+					Margin="5"
+					Content="Trip Calculator" Click="tripCalculatorButton_Click"/>
 			<Button x:Name="exitButton"
 					Width="150"
 					Margin="5,15"
